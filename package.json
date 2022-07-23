@@ -1,0 +1,21 @@
+{
+  "name": "interview-buddy",
+  "version": "1.0.0",
+  "description": "A storage space to store all your interview related files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "author": "Karthic kumar K",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1130.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.3.1",
+    "nodemon": "^2.0.16",
+    "winston": "^3.7.2"
+  }
+}

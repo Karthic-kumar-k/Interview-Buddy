@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>File upload</title>
+</head>
+ 
+<body>
+    <h1>Demo Form</h1>
+ 
+    <form action="/uploadToS3" method="POST" enctype="multipart/form-data">
+        <pre>
+            Enter your Email    : <input type="text" name="email"> <br>
+            <input type='file' name='fileUploaded'>
+            <input type="submit" value="Submit Form">
+        </pre>
+    </form>
+</body>
+ 
+</html>
